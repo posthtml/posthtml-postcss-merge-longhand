@@ -19,7 +19,13 @@
   "keywords": [
     "html",
     "posthtml",
-    "posthtml-plugin"
+    "posthtml-plugin",
+    "postcss",
+    "inline-styles",
+    "inline-css",
+    "inline-css",
+    "longhand",
+    "shorthand"
   ],
   "dependencies": {
     "postcss": "^7.0.27",
