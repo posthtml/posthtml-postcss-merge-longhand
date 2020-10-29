@@ -28,9 +28,9 @@
     "shorthand"
   ],
   "dependencies": {
-    "postcss": "^7.0.27",
+    "postcss": "^8.1.4",
     "postcss-merge-longhand": "^4.0.11",
-    "posthtml": "^0.13.0"
+    "posthtml": "^0.13.4"
   },
   "devDependencies": {
     "ava": "^3.8.0",
