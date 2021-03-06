@@ -11,7 +11,7 @@
 
 ## About
 
-This plugin uses [postcss-merge-longhand](https://github.com/cssnano/cssnano/tree/master/packages/postcss-merge-longhand) to merge longhand CSS properties found in `style=""` attributes to shorthand.
+This plugin uses [postcss-merge-longhand](https://github.com/cssnano/cssnano/tree/master/packages/postcss-merge-longhand) to merge longhand CSS properties in `style=""` attributes to shorthand.
 
 Input:
 
