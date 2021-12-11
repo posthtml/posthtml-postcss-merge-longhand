@@ -7,12 +7,13 @@
   "bugs": "https://github.com/posthtml/posthtml-postcss-merge-longhand/issues",
   "homepage": "https://github.com/posthtml/posthtml-postcss-merge-longhand",
   "repository": "posthtml/posthtml-postcss-merge-longhand",
-  "main": "lib",
+  "type": "module",
+  "exports": "./lib/index.js",
   "engines": {
-    "node": ">=10"
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "scripts": {
-    "test": "nyc ava",
+    "test": "c8 ava",
     "pretest": "xo",
     "release": "np"
   },
@@ -28,14 +29,14 @@
     "shorthand"
   ],
   "dependencies": {
-    "postcss": "^8.1.10",
-    "postcss-merge-longhand": "^5.0.1",
-    "posthtml": "^0.16.4"
+    "postcss": "^8.4.4",
+    "postcss-merge-longhand": "^5.0.4",
+    "posthtml": "^0.16.5"
   },
   "devDependencies": {
-    "ava": "^3.13.0",
-    "np": "^7.0.0",
-    "nyc": "^15.1.0",
-    "xo": "^0.39.1"
+    "ava": "^3.15.0",
+    "c8": "^7.10.0",
+    "np": "^7.6.0",
+    "xo": "^0.47.0"
   }
 }
