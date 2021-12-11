@@ -34,18 +34,22 @@ $ npm i posthtml posthtml-postcss-merge-longhand
 ## Usage
 
 ```js
-const posthtml = require('posthtml')
-const mergeInlineLonghand = require('posthtml-postcss-merge-longhand')
+import posthtml from 'posthtml'
+import mergeInlineLonghand from 'posthtml-postcss-merge-longhand'
 
 const html = '<div style="margin-top: 1px; margin-right: 2px; margin-bottom: 3px; margin-left: 4px;">Test</div>'
 
 posthtml([
-    mergeInlineLonghand()
-  ])
+  mergeInlineLonghand()
+])
   .process(html)
   .then(result => console.log(result.html))
+```
 
-  // <div style="margin: 1px 2px 3px 4px;">Test</div>
+Result:
+
+```html
+<div style="margin: 1px 2px 3px 4px;">Test</div>
 ```
 
 ## Options
@@ -60,8 +64,8 @@ Array of tag names to process. All other tags will be skipped.
 Example:
 
 ```js
-const posthtml = require('posthtml')
-const mergeInlineLonghand = require('posthtml-postcss-merge-longhand')
+import posthtml from 'posthtml'
+import mergeInlineLonghand from 'posthtml-postcss-merge-longhand'
 
 const html = `
   <div style="margin-top: 1px; margin-right: 2px; margin-bottom: 3px; margin-left: 4px;">Test</div>
@@ -69,13 +73,17 @@ const html = `
 `
 
 posthtml([
-    mergeInlineLonghand({tags: ['div']})
-  ])
+  mergeInlineLonghand({tags: ['div']})
+])
   .process(html)
   .then(result => console.log(result.html))
+```
 
-  // <div style="margin: 1px 2px 3px 4px;">Test</div>
-  // <p style="margin-top: 1px; margin-right: 2px; margin-bottom: 3px; margin-left: 4px;">Test</p>
+Result:
+
+```html
+<div style="margin: 1px 2px 3px 4px;">Test</div>
+<p style="margin-top: 1px; margin-right: 2px; margin-bottom: 3px; margin-left: 4px;">Test</p>
 ```
 
 [npm]: https://www.npmjs.com/package/posthtml-postcss-merge-longhand
