@@ -4,8 +4,8 @@
   <p>Merge longhand inline CSS into shorthand</p>
 
   [![Version][npm-version-shield]][npm]
-  [![License][license-shield]][license]
   [![Build][github-ci-shield]][github-ci]
+  [![License][license-shield]][license]
   [![Downloads][npm-stats-shield]][npm-stats]
 </div>
 
@@ -83,6 +83,6 @@ posthtml([
 [npm-stats]: http://npm-stat.com/charts.html?package=posthtml-postcss-merge-longhand
 [npm-stats-shield]: https://img.shields.io/npm/dt/posthtml-postcss-merge-longhand.svg
 [github-ci]: https://github.com/posthtml/posthtml-postcss-merge-longhand/actions
-[github-ci-shield]: https://img.shields.io/github/workflow/status/posthtml/posthtml-postcss-merge-longhand/Node.js%20CI
+[github-ci-shield]: https://github.com/posthtml/posthtml-postcss-merge-longhand/actions/workflows/nodejs.yml/badge.svg
 [license]: ./license
 [license-shield]: https://img.shields.io/npm/l/posthtml-postcss-merge-longhand.svg
