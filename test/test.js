@@ -1,9 +1,8 @@
-const test = require('ava')
-const plugin = require('../lib')
-const posthtml = require('posthtml')
-
 const path = require('path')
 const {readFileSync} = require('fs')
+const test = require('ava')
+const posthtml = require('posthtml')
+const plugin = require('../lib/index.js')
 
 const fixture = file => readFileSync(path.join(__dirname, 'fixtures', `${file}.html`), 'utf8')
 const expected = file => readFileSync(path.join(__dirname, 'expected', `${file}.html`), 'utf8')
