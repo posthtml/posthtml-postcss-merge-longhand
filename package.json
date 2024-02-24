@@ -23,13 +23,15 @@
     "postcss",
     "inline-styles",
     "inline-css",
-    "inline-css",
+    "merge-styles",
+    "merge-css",
     "longhand",
     "shorthand"
   ],
   "dependencies": {
     "postcss": "^8.1.10",
     "postcss-merge-longhand": "^6.0.0",
+    "postcss-safe-parser": "^7.0.0",
     "posthtml": "^0.16.4"
   },
   "devDependencies": {

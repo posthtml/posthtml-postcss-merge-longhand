@@ -27,3 +27,7 @@ test('Preserves other properties', t => {
 test('Works with tags option', t => {
   return process(t, 'tags', {tags: ['div', 'p']})
 })
+
+test('Works with bad CSS', t => {
+  return process(t, 'parser')
+})
