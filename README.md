@@ -1,6 +1,6 @@
 <div align="center">
   <img width="150" height="150" title="PostHTML" src="https://posthtml.github.io/posthtml/logo.svg">
-  <h1>Merge inline longhand</h1>
+  <h1>Merge Longhand</h1>
   <p>Merge longhand inline CSS into shorthand</p>
 
   [![Version][npm-version-shield]][npm]
