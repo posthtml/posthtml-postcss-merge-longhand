@@ -8,6 +8,7 @@
   "homepage": "https://github.com/posthtml/posthtml-postcss-merge-longhand",
   "repository": "posthtml/posthtml-postcss-merge-longhand",
   "main": "lib",
+  "types": "index.d.ts",
   "engines": {
     "node": ">=14.0.0"
   },
@@ -41,6 +42,7 @@
     "xo": "^0.54.2"
   },
   "files": [
-    "lib/*"
+    "lib/*",
+    "index.d.ts"
   ]
 }
