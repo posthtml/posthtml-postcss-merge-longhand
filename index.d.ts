@@ -1,4 +1,4 @@
-export default interface PluginOptions {
+export type PluginOptions = {
   /**
   Array of tag names to process. All other tags will be skipped.
 
@@ -26,4 +26,4 @@ export default interface PluginOptions {
   ```
   */
   tags?: string[];
-}
+};
