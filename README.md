@@ -34,8 +34,8 @@ $ npm i posthtml posthtml-postcss-merge-longhand
 ## Usage
 
 ```js
-const posthtml = require('posthtml')
-const mergeInlineLonghand = require('posthtml-postcss-merge-longhand')
+import posthtml from 'posthtml'
+import mergeInlineLonghand from 'posthtml-postcss-merge-longhand'
 
 const html = '<div style="margin-top: 1px; margin-right: 2px; margin-bottom: 3px; margin-left: 4px;">Test</div>'
 
@@ -60,8 +60,8 @@ Array of tag names to process. All other tags will be skipped.
 Example:
 
 ```js
-const posthtml = require('posthtml')
-const mergeInlineLonghand = require('posthtml-postcss-merge-longhand')
+import posthtml from 'posthtml'
+import mergeInlineLonghand from 'posthtml-postcss-merge-longhand'
 
 const html = `
   <div style="margin-top: 1px; margin-right: 2px; margin-bottom: 3px; margin-left: 4px;">Test</div>
@@ -84,5 +84,5 @@ posthtml([
 [npm-stats-shield]: https://img.shields.io/npm/dt/posthtml-postcss-merge-longhand.svg
 [github-ci]: https://github.com/posthtml/posthtml-postcss-merge-longhand/actions
 [github-ci-shield]: https://github.com/posthtml/posthtml-postcss-merge-longhand/actions/workflows/nodejs.yml/badge.svg
-[license]: ./license
+[license]: ./LICENSE
 [license-shield]: https://img.shields.io/npm/l/posthtml-postcss-merge-longhand.svg
