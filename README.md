@@ -48,6 +48,17 @@ posthtml([
   // <div style="margin: 1px 2px 3px 4px;">Test</div>
 ```
 
+### CommonJS
+
+Both ESM and CJS exports are provided, you can also `require` the module:
+
+```js
+const posthtml = require('posthtml')
+const mergeInlineLonghand = require('posthtml-postcss-merge-longhand')
+
+// ...
+```
+
 ## Options
 
 ### `tags`
