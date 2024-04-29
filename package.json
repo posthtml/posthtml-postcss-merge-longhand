@@ -46,7 +46,7 @@
   ],
   "dependencies": {
     "postcss": "^8.1.10",
-    "postcss-merge-longhand": "^6.0.0",
+    "postcss-merge-longhand": "^7.0.0",
     "postcss-safe-parser": "^7.0.0",
     "posthtml": "^0.16.4"
   },
