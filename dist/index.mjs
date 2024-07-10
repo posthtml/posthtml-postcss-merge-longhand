@@ -9,7 +9,7 @@ const plugin = (options = {}) => (tree) => {
     if (tags.size > 0 && !tags.has(node.tag)) {
       return node;
     }
-    if (node.attrs && node.attrs.style) {
+    if (node.attrs?.style) {
       const { css } = postcss().use(mergeLonghand).process(`div { ${node.attrs.style} }`, { parser: safe });
       node.attrs.style = css.replace(/div {\s|\s}$/gm, "");
     }
