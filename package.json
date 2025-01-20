@@ -55,6 +55,6 @@
     "@biomejs/biome": "1.9.4",
     "@vitest/coverage-v8": "^2.0.3",
     "unbuild": "^2.0.0",
-    "vitest": "^2.0.3"
+    "vitest": "^3.0.2"
   }
 }
