@@ -26,7 +26,7 @@
   },
   "scripts": {
     "dev": "vitest",
-    "release": "np",
+    "release": "npx np",
     "build": "unbuild",
     "prepack": "unbuild",
     "lint": "biome lint ./lib ./test",
